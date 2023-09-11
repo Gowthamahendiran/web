@@ -1,18 +1,21 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import product1 from "../Image/Trimmer.jpeg";
 import product2 from "../Image/Gel.jpeg";
 import product3 from "../Image/Racer.png";
-import product4 from "../Image/Five.jpg";
-import product5 from "../Image/Six.png";
+import product4 from "../Image/Nine.jpg";
+import product5 from "../Image/Eight.jpg";
 import product6 from "../Image/Seven.jpg";
-import product7 from "../Image/Eight.jpg";
-import product8 from "../Image/Nine.jpg";
+import product7 from "../Image/Six.png";
+import product8 from "../Image/Five.jpg";
 import product9 from "../Image/Gel.jpeg";
-
+import { useNavigate } from "react-router-dom";
 
 
 const Product = () => {
-    const productsRef = useRef(null); // Create a ref for the Product section
+    const navigate = useNavigate();
+    const HandleLogin = () => {
+        navigate('/login')
+    }
     const products = [
         { image: product1, name: "Product 1" },
         { image: product2, name: "Product 2" },
@@ -37,7 +40,7 @@ const Product = () => {
 
     return (
         <>
-        <h2   ref={productsRef} className="OurProd">Our Products</h2>
+        <h2 className="OurProd">Our Products</h2>
         <br />
         <div className="ProductDiv" id="product">
             {[
@@ -52,7 +55,7 @@ const Product = () => {
             ))}
         </div>
         <br />
-        <button className="ViewMore">View More</button>
+        <button className="ViewMore" onClick={HandleLogin}>View More</button>
         <br />
         </>
     )

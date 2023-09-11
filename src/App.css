@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  overflow: hidden; /* Prevents scrollbars due to border */
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.text {
+  flex: 1;
+  padding: 10px;
+}
+
+.map {
+  flex: 1;
+  max-width: calc(100% - 4px); /* Adjusted map width to account for border */
+  height: calc(100% - 4px); /* Adjusted map height to account for border */
+  margin: 10px 0; 
+}
+
+
+.DivH{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}

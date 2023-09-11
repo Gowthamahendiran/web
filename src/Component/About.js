@@ -1,6 +1,12 @@
 import React from "react";
 import imageFour from "../Image/imageFour.png"
+import { useNavigate } from "react-router-dom";
+
 const About = () => {
+    const navigate = useNavigate();
+    const HandleLogin = () => {
+        navigate('/login')
+    }
     return(
         <div className="AboutDiv" id="about">
             <img src={imageFour}  className="ImageFour"/>
@@ -21,7 +27,7 @@ const About = () => {
             <br />
             <br/>
             <br />
-            <button className="ExploreNow">Explore Now</button>
+            <button className="ExploreNow" onClick={HandleLogin}>Explore Now</button>
             </p>
         </div>
     )

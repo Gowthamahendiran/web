@@ -1,0 +1,80 @@
+.GifImage{
+    width: 200px;
+    height: auto;
+}
+
+.LoginDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    border: 2px solid #000; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+.InputField{
+    font-size: 22px;
+    width: 350px;
+    height: 50px;
+}
+
+.LoginSubmit{
+    color:#000000;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: larger;
+    background-color: #ffffff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+
+.LoginSubmit:hover{
+    color:#fff;
+    background-color: #000000;
+}
+
+
+.LoginP{
+    font-size: x-large;
+}
+
+.loginHead{
+    font-size: 40px;
+}
+
+
+.CSSA {
+    color: #EF681C; 
+    text-decoration: none;
+    font-size: x-large;
+    
+}
+
+.CSSA:hover {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.SignupDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    border: 2px solid #000; 
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
