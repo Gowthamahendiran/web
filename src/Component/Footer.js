@@ -37,10 +37,10 @@ const Footer = () => {
             </div>
 
             <div className="FooterSocial">
-                <BsFacebook className="ICONs" />
-                <BsInstagram className="ICONs" />
-                <AiOutlineTwitter className="ICONs" />
-                <BsGithub className="ICONs" />
+                <a href="https://www.facebook.com/" target="_blank"><BsFacebook className="ICONs" /></a>
+                <a href="https://www.instagram.com/" target="_blank"><BsInstagram className="ICONs" /></a>
+                <a href="https://www.twitter.com/" target="_blank"><AiOutlineTwitter className="ICONs" /></a>
+                <a href="https://www.github.com/" target="_blank"><BsGithub className="ICONs" /></a>
             </div>
         </div>
     )

@@ -55,7 +55,7 @@ const Product = () => {
             ))}
         </div>
         <br />
-        <button className="ViewMore" onClick={HandleLogin}>View More</button>
+        <button className="ViewMore" onClick={HandleLogin}>Shop Now</button>
         <br />
         </>
     )

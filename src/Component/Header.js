@@ -36,9 +36,23 @@ const Header = () => {
           </Link>
         </li>
         <li>
+        <Link
+            to="more"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="Linkto"
+          >
+            More
+          </Link>
+        </li>
+        <li>
           <a href="/login">Login</a>
         </li>
-        <li></li>
+        <li>
+
+        </li>
       </ul>
     </div>
   );

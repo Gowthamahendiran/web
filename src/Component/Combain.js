@@ -4,6 +4,7 @@ import Content from "./Content";
 import Header from "./Header";
 import Product from "./Product";
 import About from "./About";
+import More from "./More";
 const Combain = () => {
     return(
         <div>
@@ -11,6 +12,7 @@ const Combain = () => {
             <Content />
             <About />
             <Product />
+            <More />
             <Footer />
         </div>
     )

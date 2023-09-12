@@ -75,15 +75,12 @@
     
 }
 
-
-/* .ProductDiv{
-    background-color: rgb(230, 178, 225);
-    height: 80vh;
+.MoreDiv{
+    background-color: rgb(241, 217, 239);
+    height: 65vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
+    
+}
 
 .ImageFour{
     width: 800px;
@@ -129,6 +126,10 @@
 
 .ICONs{
     color: aliceblue;
+}
+
+.ICONs:hover{
+    color:#EF681C;
 }
 
 
@@ -239,4 +240,13 @@
 
 .Linkto{
     cursor: pointer;
+}
+
+
+
+.ImageWhy{
+    width: 600px;
+    height:400px;
+    margin-top: 80px;
+    margin-right: 50px;
 }
