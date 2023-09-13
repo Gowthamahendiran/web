@@ -59,7 +59,7 @@
   flex: 1;
   max-width: calc(100% - 4px); /* Adjusted map width to account for border */
   height: calc(100% - 4px); /* Adjusted map height to account for border */
-  margin: 10px 0; 
+  margin: 30px 20px; 
 }
 
 
@@ -68,4 +68,34 @@
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
+}
+
+
+
+.InputSearch{
+  font-size: x-large;
+  display: flex;
+  margin-left: 1200px;
+  margin-right: auto;
+  justify-content: center;
+  
+}
+
+
+.Details{
+  font-size: large;
+  display: flex;
+  margin-top: 190px;
+  background-color: #1c800f;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.Details:hover{
+  color:  #1c800f;
+  background-color: white ;
 }
