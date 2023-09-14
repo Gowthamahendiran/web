@@ -1,9 +1,11 @@
 import React from "react";
+import Sidebar from "./Sidebar";
+import Combaine from "./Combine";
 
 const Apointment = () => {
     return(
         <div>
-            <h1>This is a Appointment Section</h1>
+            <Combaine />
         </div>
     )
 }

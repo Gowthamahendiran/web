@@ -45,8 +45,6 @@ const Signup = () => {
             <br />
             <input placeholder="Password" type="password" className="InputField" value={Password} onChange={(e) => setPassword(e.target.value)} />
             <br />
-            <label className="LoginP"><input type="checkbox"  style={{ transform: "scale(1.9)" }}/> Remember Me</label>
-            <br />
             <button className="LoginSubmit" onClick={HandleSubmit}>Submit</button>
             <br />
             <div>

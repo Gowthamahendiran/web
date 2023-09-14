@@ -1,0 +1,10 @@
+.combaine {
+    display: flex;
+  }
+  
+  .content {
+    flex-grow: 1;
+    /* Add any additional styles you need for the content area */
+  }
+  
+
